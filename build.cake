@@ -229,6 +229,13 @@ var ws2022s_sql17d = PackerTemplates_CreateWindows(
   ws2022s,
   aliases: new [] { "sql-server" }
 );
+var ws2022s_sql16d = PackerTemplates_CreateWindows(
+  "ws2022s-sql16d",
+  "sql-server-2016-developer-windows-server",
+  $"2016.2102.{version}",
+  ws2022s,
+  aliases: new [] { "sql-server" }
+);
 
 var ws2022sc_sql19d = PackerTemplates_CreateWindows(
   "ws2022sc-sql19d",
@@ -240,6 +247,12 @@ var ws2022sc_sql17d = PackerTemplates_CreateWindows(
   "ws2022sc-sql17d",
   "sql-server-2017-developer-windows-server-core",
   $"2017.2102.{version}",
+  ws2022sc
+);
+var ws2022sc_sql16d = PackerTemplates_CreateWindows(
+  "ws2022sc-sql16d",
+  "sql-server-2016-developer-windows-server-core",
+  $"2016.2102.{version}",
   ws2022sc
 );
 
