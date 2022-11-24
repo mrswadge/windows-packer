@@ -235,6 +235,7 @@ Follow the steps below to install the required tools:
     - **VirtualBox** Install [VirtualBox][VirtualBoxInstallation].
     - **Hyper-V** Enable [Hyper-V][HyperVEnabling].
 1. Install [Chef Workstation][ChefWorkstationInstallation].
+1. Install [Windows ADK][WindowsADKInstallation] and add `C:\Program Files (x86)\Windows Kits\10\Assessment and Deployment Kit\Deployment Tools\x86\Oscdimg` to PATH
 
 You are now ready to build a virtual machine image and a Vagrant box.
 
@@ -252,6 +253,7 @@ You are now ready to build a virtual machine image and a Vagrant box.
 [VirtualBoxInstallation]: https://www.virtualbox.org/wiki/Downloads/
 [HyperVEnabling]: https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v
 [ChefWorkstationInstallation]: https://downloads.chef.io/chef-workstation/
+[WindowsADKInstallation]: https://learn.microsoft.com/en-us/windows-hardware/get-started/adk-install
 
 [PackerCaching]: https://www.packer.io/docs/other/environment-variables.html#packer_cache_dir
 
